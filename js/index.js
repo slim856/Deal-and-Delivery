@@ -70,7 +70,7 @@ window.onclick = function(event) {
 var slider_img = document.querySelector('.carousel-img');
 var images = [];
 var i = 0;
-var time = 5000;
+var time = 3000;
 
 images[0] = "furniture 3.png"
 images[1] = "electronics 2.png"

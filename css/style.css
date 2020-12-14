@@ -13,10 +13,15 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
+    padding: 25px 130px;
 }
 .logo {
     margin-right: 65px;
+}
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .categories-drpdwn {
     display: inline-block;
@@ -56,7 +61,7 @@ nav {
     margin-left: 12px;
 }
 .search {
-    width: 44%;
+    width: 600px;
     height: 48px;
 }
 .searchBtn {
@@ -124,7 +129,7 @@ nav {
     background: rgba(255, 171, 0, 0.7);
     padding: 5px 25px;
     border-radius: 7px;
-    margin-left: 51px;
+    margin-left: 36px;
 }
 .signup-inner {
     display: none;
