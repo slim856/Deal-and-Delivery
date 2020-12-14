@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navBar">
+            <a href=""><img src="img/logo.png" class="logo" alt=""></a>
+            <div>
+                <div class="categories-drpdwn">
+                    <a href="#" onclick="Categories()" class="categories-drpdwn-btn">Categories<i
+                            class="fa fa-angle-down"></i></a>
+                    <div id="myDrpdwn" class="categoriesDrpdwn-list">
+                        <a href="">Food Items</a>
+                        <a href="">Clothes</a>
+                        <a href="">Electronics</a>
+                        <a href="">Furnitures</a>
+                    </div>
+                </div>
+                <input type="text" class="search">
+                <a href="" class="searchBtn"><i class="fas fa-search"></i></a>
+            </div>
+            <div>
+                <a href="#" id="logIn-drp-btn" class="logIn"><i class="far fa-user"></i>Log In</a>
+                <div id="logIn-drp" class="login-inner">
+                    <div class="login-inner-content">
+                        <div id="close" class="close-btn"><i class="fas fa-times"></i></div>
+                        <div class="login-inner-btn">
+                            <a href="#" class="userLogin">User Login</a>
+                            <a href="#" class="businessLogin">Business Login</a>
+                        </div>
+
+                    </div>
+                </div>
+                <a href="#" id="signUp-drp-btn" class="signUp">Sign Up</a>
+                <div id="signUp-drp" class="signup-inner">
+                    <div class="login-inner-content">
+                        <div id="close-btn" class="close-btn"><i class="fas fa-times"></i></div>
+                        <div class="login-inner-btn">
+                            <a href="#" class="userSignup">Sign up user</a>
+                            <a href="#" class="businessSignup">Sign up business</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="company-dropdown">
+        <a href="#" onclick="Company()" class="company-drpdwn-btn">Company<i class="fa fa-angle-down"></i></a>
+        <div id="myDropdown" class="companyDropdown-list">
+            <a href="">Who we are</a>
+            <a href="">Our goals</a>
+            <a href="">Our offerings</a>
+            <a href="">How DnD works</a>
+        </div>
+    </div>
+    <div class="carousel-banner">
+        <div class="carousel-banner-item">
+            <img name="slide" class="carousel-img" src="img/furniture 3.png" alt="">
+        </div>
+        <div>
+            <a href="#" class="prev" onclick="prev()"> <i class="fas fa-angle-left"></i></a>
+            <a href="#" class="next" onclick="next()"><i class="fas fa-angle-right"></i></a>
+        </div>
+    </div>
+    <div class="aboutUs">
+        <div>
+            <h1>Who we are</h1>
+            <p>
+                Farm DnD is a social trade networking platform that creates entirely new
+                opportunities . We enable trade advantage and mutual profit sharing among
+                our network of users. This online directory allow for users connections on the
+                basis of product and service shared demands, market sponsorship pool, and
+                social networks with a built-in messaging system.
+            </p>
+        </div>
+        <div>
+            <img src="img/DQXH2W4IHZCRBBI5VAEFV6TNNU 1.png" alt="">
+        </div>
+    </div>
+    <div class="goals-section">
+        <div class="goals">
+            <div class="vision">
+                <h1>Our goal</h1>
+                <img src="img/GOALS 1.png" alt="">
+                <div>
+                    <h2>Vision</h2>
+                    <p>Our vision is to create trade advantage for
+                        everyone</p>
+                </div>
+            </div>
+            <div class="mission">
+                <h2>Mission</h2>
+                <div>
+                    <p><strong>To users</strong><br>
+                        To connect the world population to product & service
+                        deal and enable users generate income base on their
+                        social connect new money asset </p>
+                </div>
+                <div>
+                    <p><strong>To businesses</strong><br>
+                        Give businesses acces to connect to the immediate
+                        market</p>
+                </div>
+                <div>
+                    <p><strong>To manufacturer</strong><br>
+                        To provide a user centric space that create better
+                        product awareness for best adoption by end users
+                        resulting to better brand</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="offerings-section">
+        <h1>Our offerings</h1>
+        <div class="offerings">
+            <div class="social">
+                <i class="fas fa-user-friends"></i>
+                <p><strong>Social trade network</strong><br>
+                    <br>
+                    The platform is integrated with a
+                    built in messaging system that
+                    allows for social connection...<br>
+                    <br><a href="">Learn more</a></p>
+            </div>
+            <div class="business">
+                <i class="fas fa-store-alt"></i>
+                <p><strong>Business suite</strong><br>
+                    <br>
+                    Is a tool that allows businesses
+                    quick access to users’ social trade
+                    networks...<br>
+                    <br> <a href="">Learn more</a></p>
+            </div>
+            <div class="ad">
+                <i class="fas fa-ad"></i>
+                <p><strong>Ad manager</strong><br>
+                    <br>
+                    A tool that enables manufacturers
+                    and service providers to monitor
+                    real time engagement...<br>
+                    <br><a href="">Learn more</a></p>
+            </div>
+        </div>
+        <div class="works">
+            <h1>How DnD works</h1>
+            <h2>How to use DnD web application</h2>
+            <p>Our core services for users is developing technologies that matches users product and service
+                demands, leverage on the strength
+                of the overall purchase power to bid lowest price with merchants against individual purchasing at
+                higher price, and deliver
+                individual order within their geo location<br><br><a href="">Learn more</a></p>
+        </div>
+    </div>
+    <div class="user-section">
+        <div>
+            <div class="user-head">
+                <h1>DnD for users</h1>
+                <h2>The power of DnD in every product and service purchase</h2>
+                <p>Blowout deals up to 80% Off Shared Product demand with hundred of other buyer to gain massive
+                    discount. </p>
+            </div>
+            <div class="users-content">
+                <div class="shared">
+                    <div class="user-illustrations shared-img">
+                        <img src="img/SHARED demand 1.png" alt="">
+                    </div>
+                    <p>Shared demand<br>
+                        <br>
+                        Connect with thousands of other
+                        buyers to bid the lowest price in
+                        product and service purchase.
+                        <br><br>
+                        Activate massive savings</p>
+                </div>
+                <div class="asset">
+                    <div class="user-illustrations asset-img">
+                        <img src="img/ADD FRIENDS 1.png" alt="">
+                    </div>
+                    <p>New money asset<br>
+                        <br>
+                        Earn constant income on your
+                        social connect (new money asset),
+                        and on every product and service
+                        purchase
+                        <br><br>
+                        Activate massive earning</p>
+                </div>
+                <div class="pooled">
+                    <div class="user-illustrations pooled-img">
+                        <img src="img/POOLED CONNECT 1.png" alt="">
+                    </div>
+                    <p>Pooled sponsorship<br>
+                        <br>
+                        Pool your capital resources with
+                        others to sponsor market demand
+                        and earn impressive return on your
+                        investment.
+                        <br><br>
+                        Activate passive income</p>
+                </div>
+            </div>
+        </div>
+        <div class="user-end">
+            <div>
+                <h2>DnD for users</h2>
+                <p>Start earning</p>
+                <a href="">Sign up</a>
+            </div>
+            <div>
+                <img src="img/undraw_people_tax5 1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="business-section">
+        <div class="business-top">
+            <div class="bus-discription">
+                <h1>DnD for business</h1>
+                <h2>Access to connect to 100-1000 of buyers at a time, <br>one deal can empty your inventory</h2>
+                <h3>DnD business suite</h3>
+                <p>Grow your business on dnd with DnD Business suite, it is a tool that allows
+                    businesses quick access to users social trade networks, are able to conduct
+                    real time market survey, and integrate business inventory on the trade
+                    platform.</p>
+            </div>
+            <div>
+                <div class="bus-illustration">
+                    <img src="img/undraw_setup_analytics_8qkl 1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="business-end">
+            <h2>DnD for business</h2>
+            <p>Connect with thousands of buyers</p>
+            <a href="">Sign up</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <p>© 2020 Farm deal & delivery</p>
+        </div>
+    </footer>
+
+
+</body>
+
+
+<script src="js/all.js"></script>
+<script src="js/index.js"></script>
+
+</html>

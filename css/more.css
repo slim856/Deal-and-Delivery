@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+body, html {
+    width: 100%;
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+nav {
+    background: #2B386F;
+    width: 100%;
+}
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.logo {
+    margin-right: 65px;
+}
+.categories-drpdwn {
+    display: inline-block;
+}
+.categories-drpdwn-btn {
+    background: rgba(255, 171, 0, 0.7);
+    border-radius: 7px 0px 0px 7px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 17px 10px;
+}
+.categoriesDrpdwn-list {
+    display: none;
+    position: absolute;
+    top: 77px;
+    background: #F6F6F6;
+    box-shadow: 0.5px 0.5px 5px 1px rgba(0, 0, 0, 0.25);
+    width: 270px;
+    z-index: 1
+}
+.categoriesDrpdwn-list a {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px 15px 12px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+}
+.categoriesDrpdwn-list a:hover {
+    background: #C4C4C4;
+}
+.open{display: block;}
+.fa-angle-down {
+    margin-left: 12px;
+}
+.search {
+    width: 600px;
+    height: 48px;
+}
+.searchBtn {
+    background: rgba(255, 171, 0, 0.7);
+    border-radius: 0px 7px 7px 0px;
+    padding: 17px 20px;
+}
+.fa-search {
+    color: #ffffff;
+}
+
+.signUp, .logIn {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.login-inner {
+    display: none;
+    position: absolute;
+    top: 139px;
+    left: 0px;
+    width: 100%;
+    height: 720px;
+    background: #FDFDFD;
+}
+.signUp-sec-container {
+    padding: 85px 130px 95px 130px;
+    background: rgba(74, 95, 189, 0.1);
+}
+.login-inner-btn {
+    margin-top: 150px;
+}
+.userLogin {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-decoration: none;
+    color: rgba(253, 253, 253, 1);
+    background: #2B386F;
+    border-radius: 10px;
+    padding: 14px 87px;
+    margin-right: 576px;
+}
+.businessLogin {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-decoration: none;
+    color: rgba(253, 253, 253, 1);
+    background: #2B386F;
+    border-radius: 10px;
+    padding: 14px 48px;
+}
+.fa-user {
+    margin-right: 16px;
+}
+.logIn {
+    margin-left: 55px;
+}
+.signUp {
+    background: rgba(255, 171, 0, 0.7);
+    padding: 5px 25px;
+    border-radius: 7px;
+    margin-left: 51px;
+}
+.signup-inner {
+    display: none;
+    position: absolute;
+    top: 139px;
+    left: 0px;
+    width: 100%;
+    height: 720px;
+    background: #FDFDFD;
+}
+.userSignup {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-decoration: none;
+    color: rgba(253, 253, 253, 1);
+    background: #2B386F;
+    border-radius: 10px;
+    padding: 14px 65px;
+    margin-right: 599px;
+}
+.businessSignup {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-decoration: none;
+    color: rgba(253, 253, 253, 1);
+    background: #2B386F;
+    border-radius: 10px;
+    padding: 14px 25px;
+}
+.company-dropdown {
+    background: rgba(43, 56, 111, 0.8);
+    padding: 7px 130px;
+}
+.company-drpdwn-btn {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.companyDropdown-list {
+    display: none;
+    position: absolute;
+    top: 139px;
+    background: #F6F6F6;
+    box-shadow: 0.5px 0.5px 5px 1px rgba(0, 0, 0, 0.25);
+    width: 270px;
+    z-index: 1
+}
+.companyDropdown-list a {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px 15px 12px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+}
+.companyDropdown-list a:hover{
+    background: #C4C4C4;
+}
+.show {display: block;}
+.offerings-section {
+    padding: 96px 130px 150px 130px;
+    /* background: #E5E5E5; */
+}
+.offerings-section h1 {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.offerings {
+    display: flex;
+    justify-content: space-between;
+}
+.social, .business, .ad {
+    width: 28%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.fa-user-friends, .fa-store-alt, .fa-ad {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.social a, .business a, .ad a {
+    color: rgba(0, 0, 0, 0.7);
+}
+.works-section {
+    background: rgba(74, 95, 189, 0.02);
+    padding: 60px 130px 96px 130px;
+    margin-bottom: 100px;
+}
+.works h1 {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.works-section h2 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.works p, .share-works p, .connect-works p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.works a {
+    color: rgba(0, 0, 0, 0.7);
+}
+.demand-works-container {
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+.demand-works {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 120px;
+}
+.demand-works-container h2 {
+    font-weight: 500;
+    font-size: 26px;
+}
+.demand-works p {
+    width: 49%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.share-works {
+    margin-bottom: 150px;
+}
+.step-3 {
+    margin-bottom: 36px;
+}
+.acct-gen {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.signUp-sec h1 {
+    font-weight: 600;
+    font-size: 36px;
+}
+.signUp-sec p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.footer {
+    background: #2B386F;
+    padding: 130px 48px 60px 48px;
+}
+.footer p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20px 600px;
+}
