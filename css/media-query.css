@@ -1,0 +1,418 @@
+
+@media screen and (max-width: 1359px){
+    body, html {
+        width: 100%;
+    }
+    .search {
+        width: 400px;
+    }
+    .shared-img img {
+        width: 283px;
+    }
+    .asset-img img {
+        width: 270px;
+    }
+    .pooled-img img {
+        width: 216px;
+    }
+    
+    
+}
+@media screen and (max-width: 1024px){
+    .navBar {
+        padding: 25px 80px;
+    }
+    .search {
+        width: 250px;
+    }
+    .signUp, .logIn {
+        font-size: 15px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .signup-inner{
+        height: 610px;
+    }
+    .login-inner-content {
+        padding: 80px;
+    }
+    .userSignup, .businessSignup {
+        font-size: 30px;
+    }
+    .prev, .next {
+        top: 230px;
+    }
+    .company-dropdown {
+        padding: 7px 80px;
+    }
+    .company-drpdwn-btn {
+        font-size: 15px;
+    }
+    .who {
+        width: 65%;
+    }
+    .aboutUs {
+        padding: 85px 80px;
+    }
+    .aboutUs p {
+        font-size: 14px;
+    }
+    .aboutUs img {
+        width: 280px;
+    }
+    .aboutUs h1 {
+        font-size: 30px;
+    }
+    .goals {
+        padding: 70px 80px;
+    }
+    .goals h1 {
+        font-size: 30px;
+    }
+    .vision {
+        width: 40%;
+    }
+    .vision h2 {
+        font-size: 23px;
+    }
+    .mission h2 {
+        font-size: 23px;
+    }
+    .mission p {
+        font-size: 14px;
+    }
+    .vision p  {
+        font-size: 14px;
+    }
+    .offerings-section {
+        padding: 80px 80px;
+    }
+    .offerings-section h1 {
+        font-size: 30px;
+    }
+    .social, .business, .ad {
+        width: 31%;
+        font-size: 14px;
+    }
+    .fa-user-friends, .fa-store-alt, .fa-ad {
+        font-size: 20px;
+    }
+    .works h2 {
+        font-size: 23px;
+    }
+    .works p {
+        font-size: 14px;
+    }
+    .user-section {
+        padding: 100px 80px;
+    }
+    .user-head h1 {
+        font-size: 30px;
+    }
+    .user-head h2 {
+        font-size: 23px;
+    }
+    .user-head p {
+        font-size: 14px;
+    }
+    .shared-img img {
+        width: 224px;
+    }
+    .asset-img img {
+        width: 211px;
+    }
+    .pooled-img img {
+        width: 159px;
+    }
+    .shared p, .asset p, .pooled p {
+        font-size: 14px;
+    }
+    .shared, .asset, .pooled {
+        width: 30%;
+    }
+    .user-end h2 {
+        font-size: 23px;
+    }
+    .user-end p {
+        font-size: 14px;
+    }
+    .user-end a {
+        font-size: 30px;
+    }
+    .user-end img {
+        width: 350px;
+    }
+    .business-section {
+        padding: 80px 80px 95px 80px;
+    }
+    .business-top h1 {
+        font-size: 30px;
+    }
+    .business-top h2 {
+        font-size: 19px;
+    }
+    .business-top h3 {
+        font-size: 17px;
+    }
+    .business-top p {
+        font-size: 14px;
+    }
+    .business-end p {
+        font-size: 14px;
+    }
+    .business-end a{
+        font-size: 30px;
+    }
+    .bus-illustration img {
+        width: 300px;
+    }
+    .userSignup {
+        margin-right: 0px;
+    }
+    .works-section {
+        padding: 60px 80px 96px 80px;
+    }
+    .signUp-sec-container {
+        padding: 85px 80px 95px 80px;
+    }
+    .works h1 {
+        font-size: 30px;
+    }
+    .demand-works-container h2 {
+        font-size: 23px;
+    }
+    .demand-works p {
+        font-size: 14px;
+    }
+    .demand-works img {
+        width: 250px;
+    }
+    .works p, .share-works p, .connect-works p, .acct-gen {
+        font-size: 14px;
+    }
+    .works-section h2 {
+        font-size: 23px;
+    }
+    .signUp-sec h1 {
+        font-size: 30px;
+    }
+    .signUp-sec p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px){
+    .navBar {
+        padding: 25px 50px;
+    }
+    .logo {
+        width: 90px;
+    }
+    .signup-inner, .login-inner{
+        height: 610px;
+        top: 130px;
+        height: 503px;
+    }
+    .login-inner-btn {
+        margin-top: 270px;
+    }
+    .login-inner-content {
+        padding: 50px;
+    }
+    .userSignup, .businessSignup, .businessLogin, .userLogin {
+        font-size: 26px;
+    }
+    .fa-angle-left, .fa-angle-right {
+        font-size: 35px;
+    }
+    .categories-drpdwn-btn {
+        font-size: 11px;
+        padding: 18px 10px 15px 10px;
+    }
+    .searchBtn {
+        padding: 15px 20px 13px 20px;
+    }
+    .signUp, .logIn {
+        font-size: 11px;
+    }
+    .signUp {
+        margin-left: 20px;
+    }
+    .search {
+        width: 200px;
+        height: 43px;
+    }
+    .fa-search {
+        font-size: 11px;
+    }
+    .company-dropdown {
+        padding: 7px 50px;
+    }
+    .prev, .next {
+        top: 195px;
+    }
+    .aboutUs {
+        padding: 75px 50px;
+    }
+    .aboutUs img {
+        width: 200px;
+    }
+    .aboutUs h1 {
+        font-size: 26px;
+    }
+    .aboutUs p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .goals {
+        padding: 60px 50px;
+    }
+    .goals h1 {
+        font-size: 24px;
+    }
+    .vision {
+        width: 40%;
+    }
+    .vision h2 {
+        font-size: 19px;
+    }
+    .mission h2 {
+        font-size: 19px;
+    }
+    .mission p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .vision p  {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .vision img {
+        width: 200px;
+    }
+    .offerings-section {
+        padding: 70px 50px;
+    }
+    .offerings-section h1 {
+        font-size: 26px;
+    }
+    .social, .business, .ad {
+        font-size: 10px;
+    }
+    .works h2 {
+        font-size: 19px;
+    }
+    .works p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .user-section {
+        padding: 90px 50px;
+    }
+    .user-head h1 {
+        font-size: 26px;
+    }
+    .user-head h2 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .user-head p {
+        font-size: 10px;
+    }
+    .shared-img img {
+        width: 190px;
+    }
+    .asset-img img {
+        width: 175px;
+    }
+    .pooled-img img {
+        width: 125px;
+    }
+    .pooled-img {
+        padding: 10px 22px;
+    }
+    .shared p, .asset p, .pooled p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .shared, .asset, .pooled {
+        width: 30%;
+    }
+    .user-end h2 {
+        font-size: 19px;
+    }
+    .user-end p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .user-end a {
+        font-size: 26px;
+    }
+    .user-end img {
+        width: 300px;
+    }
+    .business-section {
+        padding: 80px 50px 95px 50px;
+    }
+    .business-top h1 {
+        font-size: 26px;
+    }
+    .business-top h2 {
+        font-size: 13px;
+        line-height: 25px;
+        line-height: 20px;
+    }
+    .business-top h3 {
+        font-size: 11px;
+    }
+    .business-top p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .business-end p {
+        font-size: 10px;
+        
+    }
+    .business-end a{
+        font-size: 26px;
+    }
+    .bus-illustration img {
+        width: 175px;
+    }
+    .bus-discription {
+        width: 63%;
+    }
+    .works-section {
+        padding: 50px 50px 76px 50px;
+    }
+    .signUp-sec-container {
+        padding: 75px 50px 75px 50px;
+    }
+    .works h1 {
+        font-size: 26px;
+    }
+    .demand-works-container h2 {
+        font-size: 19px;
+    }
+    .demand-works p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .demand-works img {
+        width: 190px;
+    }
+    .works p, .share-works p, .connect-works p, .acct-gen {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .works-section h2 {
+        font-size: 8px;
+    }
+    .signUp-sec h1 {
+        font-size: 26px;
+    }
+    .signUp-sec p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+}

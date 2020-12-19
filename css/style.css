@@ -11,12 +11,9 @@ nav {
 }
 .navBar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 25px 130px;
-}
-.logo {
-    margin-right: 65px;
 }
 .searchBar {
     display: flex;
@@ -61,8 +58,10 @@ nav {
     margin-left: 12px;
 }
 .search {
-    width: 600px;
-    height: 48px;
+    width: 550px;
+    height: 50px;
+    border: 0;
+    border-radius: 0;
 }
 .searchBtn {
     background: rgba(255, 171, 0, 0.7);
@@ -93,10 +92,13 @@ nav {
 }
 .fa-times {
     font-size: 50px;
-    margin-left: 97%;
+    margin-left: 95%;
 }
 .login-inner-btn {
     margin-top: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .userLogin {
     font-weight: 500;
@@ -107,7 +109,6 @@ nav {
     background: #2B386F;
     border-radius: 10px;
     padding: 14px 87px;
-    margin-right: 576px;
 }
 .businessLogin {
     font-weight: 500;
@@ -121,9 +122,6 @@ nav {
 }
 .fa-user {
     margin-right: 16px;
-}
-.logIn {
-    margin-left: 55px;
 }
 .signUp {
     background: rgba(255, 171, 0, 0.7);
@@ -149,7 +147,6 @@ nav {
     background: #2B386F;
     border-radius: 10px;
     padding: 14px 65px;
-    margin-right: 599px;
 }
 .businessSignup {
     font-weight: 500;
@@ -215,10 +212,12 @@ nav {
 .aboutUs {
     display: flex;
     align-items: center;
-    align-items: center;
+    justify-content: space-between;
     padding: 85px 130px;
 }
-
+.who {
+    width: 60%;
+}
 .aboutUs h1 {
     font-weight: 600;
     font-size: 36px;
@@ -229,9 +228,6 @@ nav {
     font-size: 20px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.7);
-}
-.aboutUs img {
-    margin-left: 80px;
 }
 .goals-section {
     background: rgba(74, 95, 189, 0.1);
@@ -253,7 +249,6 @@ nav {
 .vision h2 {
     font-weight: 600;
     font-size: 26px;
-    line-height: 32px;
     color: rgba(0, 0, 0, 0.7);
 }
 .vision p {
@@ -269,7 +264,6 @@ nav {
 .mission h2 {
     font-weight: 600;
     font-size: 26px;
-    line-height: 32px;
     color: rgba(0, 0, 0, 0.7);
 }
 .mission p {
@@ -309,7 +303,6 @@ nav {
 .works h2 {
     font-weight: 500;
     font-size: 26px;
-    line-height: 32px;
     color: rgba(0, 0, 0, 0.7);
 }
 .works p {
@@ -350,18 +343,20 @@ nav {
     justify-content: space-between;
     margin: 60px 0;
 }
-.user-illustrations {
+.shared-img {
+    padding: 5px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.shared-img {
-    padding: 5px;
-}
 .asset-img {
     padding: 17px 11px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .pooled-img {
     padding: 10px 39px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .shared, .asset, .pooled {
@@ -381,7 +376,6 @@ nav {
 .user-end h2 {
     font-weight: 600;
     font-size: 26px;
-    line-height: 32px;
     color: rgba(0, 0, 0, 0.7);
 }
 .user-end p {
@@ -414,20 +408,17 @@ nav {
 .business-top h1 {
     font-weight: 600;
     font-size: 36px;
-    line-height: 44px;
     margin-top: 0;
     color: rgba(0, 0, 0, 0.7);
 }
 .business-top h2 {
     font-weight: 500;
     font-size: 26px;
-    line-height: 32px;
     color: rgba(0, 0, 0, 0.7);
 }
 .business-top h3 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     color: rgba(0, 0, 0, 0.7);
 }
 .business-top p {
@@ -444,7 +435,6 @@ nav {
 .business-end h2 {
     font-weight: 600;
     font-size: 26px;
-    line-height: 32px;
     color: rgba(0, 0, 0, 0.7);
 }
 .business-end p {
@@ -471,5 +461,5 @@ nav {
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
-    margin: 20px 600px;
+    text-align: center;
 }

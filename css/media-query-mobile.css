@@ -1,0 +1,352 @@
+@media screen and (max-width: 420px){
+    .navBar {
+        padding: 5px 25px;
+        align-items: center;
+    }
+    .logo {
+        width: 40px;
+    }
+    .fa-angle-down {
+        margin-left: 4px;
+    }
+    .signup-inner{
+        height: 610px;
+    }
+    .login-inner, .signup-inner{
+        top: 57px;
+        height: 227px;
+    }
+    .login-inner-content {
+        padding: 25px;
+    }
+    .login-inner-btn {
+        margin-top: 129px;
+    }
+    .fa-times {
+        font-size: 25px;
+    }
+    .userSignup, .businessSignup, .businessLogin, .userLogin {
+        font-size: 10px;
+        border-radius: 3px;
+    }
+    .userLogin {
+        padding: 10px 25px;
+        line-height: 0;
+    }
+    .businessLogin {
+        padding: 10px 15px;
+        line-height: 0;
+    }
+    .userSignup {
+        padding: 10px 20px;
+        line-height: 0;
+    }
+    .businessSignup {
+        padding: 10px;
+        line-height: 0;
+    }
+    .categories-drpdwn {
+        line-height: 0;
+    }
+    .categories-drpdwn-btn {
+        font-size: 4px;
+        padding: 6px 3px;
+        display: inline-block;
+        border-radius: 3px 0 0 3px;
+    }
+    .categoriesDrpdwn-list {
+        top: 25px;
+        width: 95px;
+    }
+    .categoriesDrpdwn-list a, .companyDropdown-list a{
+        font-size: 7px;
+        padding: 10px 30px 10px 5px;
+        line-height: 0;
+    }
+    .searchBtn {
+        padding: 5px 5px;
+        display: inline-block;
+        border-radius: 0 3px 3px 0;
+        line-height: 0;
+    }
+    .signUp, .logIn {
+        font-size: 5px;
+    }
+    .fa-user {
+        margin-right: 8px;
+    }
+    .signUp {
+        margin-left: 10px;
+        padding: 3px 10px;
+        border-radius: 3px;
+    }
+    .search {
+        width: 120px;
+        height: 14px;
+        border-radius: 0;
+        border: 0;
+        display: inline-block;
+    }
+    .fa-search {
+        font-size: 6px;
+    }
+    .company-dropdown {
+        padding: 0px 25px 3px 25px;
+    }
+    .company-drpdwn-btn {
+        font-size: 8px;
+    }
+    .companyDropdown-list {
+        top: 54px;
+        width: 95px;
+    }
+    .prev {
+        top: 90px;
+        left: 30px;
+    }
+    .next {
+        top: 90px;
+        right: 30px;
+    }
+    .fa-angle-left, .fa-angle-right {
+        font-size: 35px;
+    }
+    .fa-angle-left, .fa-angle-right {
+        font-size: 25px;
+    }
+    .aboutUs {
+        padding: 25px;
+    }
+    .aboutUs img {
+        width: 100px;
+    }
+    .aboutUs h1 {
+        font-size: 10px;
+    }
+    .aboutUs p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .goals {
+        padding: 15px 25px;
+    }
+    .goals h1 {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .mission {
+        margin-top: 20px;
+        width: 45%;
+    }
+    .vision {
+        width: 40%;
+    }
+    .vision h2 {
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
+    .mission h2 {
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
+    .mission p {
+        margin-top: 0px;
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .vision p  {
+        margin-top: 0px;
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .vision img {
+        width: 85px;
+    }
+    
+    .offerings-section {
+        padding: 25px 25px;
+    }
+    .fa-user-friends, .fa-store-alt, .fa-ad {
+        font-size: 10px;
+    }
+    .how-works {
+        margin-top: 30px;
+    }
+    .offerings-section h1 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    
+    .offerings {
+        margin-top: 15px;
+    }
+    .social, .business, .ad {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .works h2 {
+        font-size: 8px;
+    }
+    .works p {
+        font-size: 6px;
+        line-height: 10px;
+        margin: 0;
+    }
+    .user-section {
+        padding: 40px 25px;
+    }
+    .user-head h1 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .user-head h2 {
+        font-size: 8px;
+        line-height: 10px;
+        margin: 0;
+    }
+    .user-head p {
+        font-size: 6px;
+    }
+    .shared-img img {
+        width: 98px;
+    }
+    .asset-img img {
+        width: 86px;
+    }
+    .pooled-img img {
+        width: 65px;
+    }
+    .shared-img {
+        padding: 3px 5px;
+        box-shadow: 0px 2px 1.5px rgb(0 0 0 / 25%);
+    }
+    .asset-img {
+        padding: 10px 11px;
+        box-shadow: 0px 2px 1.5px rgb(0 0 0 / 25%);
+    }
+    .pooled-img {
+        padding: 10px 22px;
+        box-shadow: 0px 2px 1.5px rgb(0 0 0 / 25%);
+    }
+    .shared p, .asset p, .pooled p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .shared, .asset, .pooled {
+        width: 30%;
+    }
+    .users-content {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .user-end h2 {
+        font-size: 8px;
+    }
+    .user-end p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .user-end a {
+        font-size: 10px;
+        padding: 5px 25px;
+        border-radius: 3px;
+    }
+    .user-end img {
+        width: 150px;
+    }
+    .business-section {
+        padding: 50px 25px 65px 25px;
+    }
+    .business-top h1 {
+        font-size: 10px;
+    }
+    .business-top h2 {
+        font-size: 7px;
+        line-height: 10px;
+    }
+    .business-top h3 {
+        font-size: 6px;
+        margin: 0;
+    }
+    .business-top p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .business-end p {
+        font-size: 6px;
+        margin-top: 0;
+    }
+    .business-end h2 {
+        font-size: 8px;
+        margin: 0;
+    }
+    .business-end a{
+        font-size: 10px;
+        padding: 5px 25px;
+        border-radius: 3px;
+    }
+    .bus-illustration {
+        padding: 1px 5px;
+    }
+    .bus-illustration img {
+        width: 120px;
+    }
+    .bus-discription {
+        width: 55%;
+        margin-bottom: 35px;
+    }
+    .footer {
+        padding: 30px 48px 20px 48px;
+    }
+    .footer p {
+        font-size: 10px;
+    }
+    .works-section {
+        padding: 25px 25px 35px 25px;
+        margin-bottom: 40px;
+    }
+    .works h1 {
+        font-size: 10px;
+    }
+    .demand-works-container {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .demand-works {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .demand-works-container h2 {
+        font-size: 8px;
+    }
+    .demand-works p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .demand-works img {
+        width: 100px;
+    }
+    .works p, .share-works p, .connect-works p, .acct-gen {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .share-works {
+        margin-bottom: 50px;
+    }
+    .works-section h2 {
+        font-size: 8px;
+    }
+    .signUp-sec-container {
+        padding: 40px 25px 50px 25px;
+    }
+    .signUp-sec h1 {
+        font-size: 10px;
+    }
+    .signUp-sec p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+}
+@media screen and (max-width: px){
+
+}

@@ -10,12 +10,14 @@ nav {
 }
 .navBar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 24px 0;
 }
-.logo {
-    margin-right: 65px;
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .categories-drpdwn {
     display: inline-block;
@@ -55,8 +57,10 @@ nav {
     margin-left: 12px;
 }
 .search {
-    width: 600px;
-    height: 48px;
+    width: 550px;
+    height: 50px;
+    border: 0;
+    border-radius: 0;
 }
 .searchBtn {
     background: rgba(255, 171, 0, 0.7);
@@ -112,9 +116,6 @@ nav {
 }
 .fa-user {
     margin-right: 16px;
-}
-.logIn {
-    margin-left: 55px;
 }
 .signUp {
     background: rgba(255, 171, 0, 0.7);
@@ -227,7 +228,6 @@ nav {
 .works-section h2 {
     font-weight: 500;
     font-size: 26px;
-    line-height: 32px;
     color: rgba(0, 0, 0, 0.7);
 }
 .works p, .share-works p, .connect-works p {
@@ -291,5 +291,5 @@ nav {
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
-    margin: 20px 600px;
+    text-align: center;
 }
